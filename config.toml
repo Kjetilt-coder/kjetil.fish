@@ -1,8 +1,8 @@
 baseURL = 'http://kjetil.fish/'
 languageCode = 'en-us'
-title = 'Dr. Kjetil Gjeitsund Thorvaldsen'
+title = 'Kjetil.fish'
 theme = 'paper'
-image = 'static/cod.png'
+image = 'https://raw.githubusercontent.com/ekrof/kjetil.fish/master/static/cod.png'
 
 [params]
   # color style
@@ -15,10 +15,28 @@ image = 'static/cod.png'
   #rss = false                      # show rss icon with link
 
   # home page profile
-  avatar = 'static/cod.png'       # Gravatar email or image url(e.g. "https://deno.land/logo.svg")
+  avatar = 'https://raw.githubusercontent.com/ekrof/kjetil.fish/master/static/cod.png'       # Gravatar email or image url(e.g. "https://deno.land/logo.svg")
   name = 'Dr. Kjetil Gjeitsund Thorvaldsen'
   bio = 'Mesopelagic fish - Siphonophores - Broad-band Acoustics - Fisheries Acoustics'
 
   # misc
   disableHLJS = true              # disable requesting highlight.js
   monoDarkIcon = true             # show monochrome dark mode icon
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 10
+  [[menu.main]]
+    identifier = "research"
+    name = "Research"
+    url = "/posts/"
+    weight = 10
