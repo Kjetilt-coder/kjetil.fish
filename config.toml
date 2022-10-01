@@ -1,0 +1,24 @@
+baseURL = 'http://kjetil.fish/'
+languageCode = 'en-us'
+title = 'Dr. Kjetil Gjeitsund Thorvaldsen'
+theme = 'paper'
+image = 'static/cod.png'
+
+[params]
+  # color style
+  color = 'linen'                 # linen, wheat, gray, light
+
+  # header social icons
+  #twitter = 'YOUR_TWITTER_ID'     # twitter.com/YOUR_TWITTER_ID
+  #github = 'YOUR_GITHUB_ID'       # github.com/YOUR_GITHUB_ID
+  instagram = 'instagram.com/kjetilgjeitsund/' # instagram.com/YOUR_INSTAGRAM_ID
+  #rss = false                      # show rss icon with link
+
+  # home page profile
+  avatar = 'static/cod.png'       # Gravatar email or image url(e.g. "https://deno.land/logo.svg")
+  name = 'Dr. Kjetil Gjeitsund Thorvaldsen'
+  bio = 'Mesopelagic fish - Siphonophores - Broad-band Acoustics - Fisheries Acoustics'
+
+  # misc
+  disableHLJS = true              # disable requesting highlight.js
+  monoDarkIcon = true             # show monochrome dark mode icon
