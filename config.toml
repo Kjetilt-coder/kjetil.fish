@@ -11,7 +11,7 @@ image = 'https://raw.githubusercontent.com/ekrof/kjetil.fish/master/static/cod.p
   # header social icons
   #twitter = 'YOUR_TWITTER_ID'     # twitter.com/YOUR_TWITTER_ID
   #github = 'YOUR_GITHUB_ID'       # github.com/YOUR_GITHUB_ID
-  instagram = 'instagram.com/kjetilgjeitsund/' # instagram.com/YOUR_INSTAGRAM_ID
+  instagram = 'kjetilgjeitsund' # instagram.com/YOUR_INSTAGRAM_ID
   #rss = false                      # show rss icon with link
 
   # home page profile
